@@ -1,0 +1,22 @@
+{
+  "name": "jamgit",
+  "version": "1.0.1",
+  "description": "A git clone using Node.js",
+  "main": "index.js",
+  "bin": {
+    "jamgit-test": "./bin/jamgit-test.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-rodriguez16/jamgit.git"
+  },
+  "author": "Rick Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick-rodriguez16/jamgit/issues"
+  },
+  "homepage": "https://github.com/rick-rodriguez16/jamgit#readme"
+}
