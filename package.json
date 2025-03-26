@@ -1,10 +1,10 @@
 {
   "name": "jamgit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A git clone using Node.js",
   "main": "index.js",
   "bin": {
-    "jamgit-test": "./bin/jamgit-test.js"
+    "jamgit-test": "./node_modules/jamgit/bin/jamgit-test.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
