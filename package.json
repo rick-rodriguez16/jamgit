@@ -1,6 +1,6 @@
 {
   "name": "jamgit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A git clone using Node.js",
   "main": "index.js",
   "bin": {
