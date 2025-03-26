@@ -4,7 +4,7 @@
   "description": "A git clone using Node.js",
   "main": "index.js",
   "bin": {
-    "jamgit-test": "./node_modules/jamgit/bin/jamgit-test.js"
+    "jamgit-test": "./bin/jamgit-test.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
