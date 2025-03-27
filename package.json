@@ -1,7 +1,7 @@
 {
   "name": "jamgit",
-  "version": "1.0.7",
-  "description": "A git clone using Node.js for Mac and Linux distributions",
+  "version": "1.0.8",
+  "description": "A git clone using Node.js",
   "main": "index.js",
   "bin": {
     "jamgit-init": "./bin/jamgit-init.js",
@@ -10,7 +10,6 @@
     "jamgit-push": "./bin/jamgit-push.js"
   },
   "scripts": {
-    "postinstall": "chmod +x ./bin/jamgit-init.js ./bin/jamgit-add.js ./bin/jamgit-commit.js ./bin/jamgit-push.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
