@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-console.log("Hello from jamgit-init!")
 import { makeDirectory, makeMultiLevelDirectories } from "../lib/file-system/dir-create.js";
 
 const rootDir = './.jamgit';
