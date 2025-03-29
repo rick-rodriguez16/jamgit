@@ -13,7 +13,7 @@ const refsTagsDir = `${rootDir}/refs/tags`;
 
 
 try {
-    makeDirectory(rootDir);
+    let result = makeDirectory(rootDir);
     makeMultiLevelDirectories(branchesDir);
     makeMultiLevelDirectories(hooksDir);
     makeMultiLevelDirectories(infoDir);
@@ -21,6 +21,7 @@ try {
     makeMultiLevelDirectories(objectsPackDir);
     makeMultiLevelDirectories(refsHeadsDir);
     makeMultiLevelDirectories(refsTagsDir);
+    console.log(result.msg, result.dir);
 } catch (error) {
     console.error("Error: ", error)
 }
